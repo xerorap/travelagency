@@ -4,13 +4,13 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: white; /* Scrollbar track color */
+    background: black; /* Scrollbar track color */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: black; /* Scrollbar thumb color */
+    background-color: white; /* Scrollbar thumb color */
     border-radius: 10px; /* Rounded edges for the thumb */
-    border: 2px solid white; /* Adds a border to the thumb */
+    border: 2px solid black; /* Adds a border to the thumb */
 }
 
 /* For Firefox */
