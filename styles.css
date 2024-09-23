@@ -1,3 +1,25 @@
+/* For Webkit-based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+    background: white; /* Scrollbar track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded edges for the thumb */
+    border: 2px solid white; /* Adds a border to the thumb */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: black white; /* Scrollbar thumb and track colors */
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
